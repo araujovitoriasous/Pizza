@@ -70,8 +70,6 @@ export default function Main() {
                   <p align="center">Obs: é a melhor pizza que o sodexo pode pagar.</p>
 
                   <img src={health} alt="" width={200} />
-
-                  <p className="mt-10">Made with 🤍 by <a className="font-semibold text-red-300" href="https://www.instagram.com/danilo.samw/">@danilo.samw</a></p>
                 </>
               ) : (
                 <>
