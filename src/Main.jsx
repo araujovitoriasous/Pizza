@@ -13,7 +13,7 @@ export default function Main() {
   const noButton = useRef()
   const [currentAnswer, setCurrentAnswer] = useState(0);
   const answers = [
-    "Larrisa Neves, você está disposta a responder algumas perguntas?",
+    "Larissa Neves, você está disposta a responder algumas perguntas?",
     "Você responderá com total sinceridade?",
     !question ? "Você quer comer uma pizza e tomar uma cerveja comigo no final de semana?" : question,
   ]
