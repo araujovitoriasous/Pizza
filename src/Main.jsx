@@ -9,22 +9,13 @@ export default function Main() {
   const [phrase, setPhrase] = useState("");
   const [question, setQuestion] = useState("");
 
-  useEffect(() => {
-    if (id) {
-      fetch(`https://for-bell-api.vercel.app/${id}`)
-        .then(response => response.json())
-        .then(data => { setPhrase(data.phrase); setQuestion(data.question); })
-    }
-  }, [id]);
-
   var noButtonTranslate = 0
   const noButton = useRef()
   const [currentAnswer, setCurrentAnswer] = useState(0);
   const answers = [
-    "Você está disposta a responder algumas perguntas?",
+    "Larrisa Neves, você está disposta a responder algumas perguntas?",
     "Você responderá com total sinceridade?",
-    "Tem certeza de que deseja continuar?",
-    !question ? "Namora comigo? 💍" : question,
+    !question ? "Você quer comer uma pizza e tomar uma cervea comigo no final de semana?" : question,
   ]
 
   const handleYesAnswerButton = () => {
@@ -73,10 +64,10 @@ export default function Main() {
               {!id ? (
                 <>
                   <p className="font-semibold" align="center">"
-                    <b>Meu amor por você é igual um círculo, 360º"</b> - Danilo
+                    <b>Te prometo a melhor pizza e a melhor companhia do Rio de Janeiro"</b> - Vitoria
                   </p>
 
-                  <p align="center">Te amo Bel, minha princesinha gatinha</p>
+                  <p align="center">Obs: é a melhor pizza que o sodexo pode pagar.</p>
 
                   <img src={health} alt="" width={200} />
 
@@ -88,8 +79,6 @@ export default function Main() {
                     <b>{phrase}</b>
                   </p>
                   <img src={health} alt="" width={200} />
-
-                  <p className="mt-10">Made with 🤍 by <a className="font-semibold text-red-300" href="https://www.instagram.com/danilo.samw/">@danilo.samw</a></p>
                 </>
               )}
             </div>
