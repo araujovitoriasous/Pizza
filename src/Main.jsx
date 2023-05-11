@@ -15,7 +15,7 @@ export default function Main() {
   const answers = [
     "Larrisa Neves, você está disposta a responder algumas perguntas?",
     "Você responderá com total sinceridade?",
-    !question ? "Você quer comer uma pizza e tomar uma cervea comigo no final de semana?" : question,
+    !question ? "Você quer comer uma pizza e tomar uma cerveja comigo no final de semana?" : question,
   ]
 
   const handleYesAnswerButton = () => {
