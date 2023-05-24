@@ -28,7 +28,7 @@ export default function Form() {
 
     await fetch('https://for-bell-api.vercel.app/', options)
       .then(response => response.json())
-      .then(response => { setLink("https://with-love-for-bell.vercel.app/" + response.id); handleChange('loading', false) })
+      .then(response => { setLink("https://pizza-six-roan.vercel.app/" + response.id); handleChange('loading', false) })
   }
 
   return (
