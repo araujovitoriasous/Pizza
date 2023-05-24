@@ -11,16 +11,10 @@
 
 ## Demonstração
 
-https://with-love-for-bell.vercel.app/
+https://pizza-six-roan.vercel.app
 
 ## Instalação
-
-Clone o repositório com ```git clone https://github.com/DaniloSamways/ForBell```
 
 Acesse a pasta do repositório e instale as dependências com ```npm i```
 
 Para rodar o projeto, execute ```npm run start```
-
-## Autores
-
-- [Danilo Samways](https://www.github.com/DaniloSamways)
